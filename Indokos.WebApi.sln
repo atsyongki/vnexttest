@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B8E1A13-130A-4012-B92B-25FB166427CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7E2C427-4994-4F55-A8AB-FA59C2F70E5E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Indokos.WebApi", "src\Indokos.WebApi\Indokos.WebApi.xproj", "{76687995-E7BF-4F1C-A747-64B7E48D4C5D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Indokos.Reports", "src\Indokos.Reports\Indokos.Reports.xproj", "{68D0E057-DA4E-45CC-924F-76208B4E13E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76687995-E7BF-4F1C-A747-64B7E48D4C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76687995-E7BF-4F1C-A747-64B7E48D4C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76687995-E7BF-4F1C-A747-64B7E48D4C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76687995-E7BF-4F1C-A747-64B7E48D4C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D0E057-DA4E-45CC-924F-76208B4E13E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D0E057-DA4E-45CC-924F-76208B4E13E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D0E057-DA4E-45CC-924F-76208B4E13E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D0E057-DA4E-45CC-924F-76208B4E13E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76687995-E7BF-4F1C-A747-64B7E48D4C5D} = {9B8E1A13-130A-4012-B92B-25FB166427CC}
+		{68D0E057-DA4E-45CC-924F-76208B4E13E7} = {9B8E1A13-130A-4012-B92B-25FB166427CC}
+	EndGlobalSection
+EndGlobal
